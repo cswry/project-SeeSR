@@ -4,28 +4,27 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <meta name="description" content="SeeSR">
+<!--  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>-->
+<!--  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>-->
+<!--  <meta property="og:url" content="URL OF THE WEBSITE"/>-->
+<!--  &lt;!&ndash; Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630&ndash;&gt;-->
+<!--  <meta property="og:image" content="static/image/your_banner_image.png" />-->
+<!--  <meta property="og:image:width" content="1200"/>-->
+<!--  <meta property="og:image:height" content="630"/>-->
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
+<!--  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">-->
+<!--  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">-->
+<!--  &lt;!&ndash; Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600&ndash;&gt;-->
+<!--  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">-->
+<!--  <meta name="twitter:card" content="summary_large_image">-->
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="keywords" content="Image Super-resolution, Diffusion Model, Stable Diffusion">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SeeSR</title>
+  <link rel="icon" type="image/x-icon" href="images/logo1.png">
 
-
-  <title>Academic Project Page</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -43,70 +42,61 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+
+   <!-- Vendor Stylesheets -->
+  <!--=================js==========================-->
+<!--  <link rel="stylesheet" href="static/css/tab_gallery.css">-->
+<!--  <link rel="stylesheet" href="../static/css/juxtapose.css">-->
+<!--  &lt;!&ndash; <script src="./static/js/index.js"></script> &ndash;&gt;-->
+<!--  &lt;!&ndash; <link rel="stylesheet" href="./menlo"> &ndash;&gt;-->
+<!--  <link rel="stylesheet" href="../static/css/image_card_fader.css">-->
+<!--  <link rel="stylesheet" href="../static/css/image_card_slider.css">-->
 </head>
 <body>
 
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">SeeSR: Towards Semantics-Aware Real-World Image Super-Resolution</h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN" target="_blank">Rongyuan Wu</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com.hk/citations?user=Xii74qQAAAAJ&hl=zh-CN" target="_blank">Hongwei Yong</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ" target="_blank">Lingchen Sun</a><sup>1,2</sup>,</span>  
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=UX26wSMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Zhengqiang Zhang</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+            <a href="https://scholar.google.com.hk/citations?user=Xii74qQAAAAJ&hl=zh-CN" target="_blank">Hongwei Yong</a><sup>1</sup>,</span>
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+            <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a><sup>1,2</sup></span>
+                </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+                <div class="is-size-5 publication-authors">
+                  <span class="author-block">1. The Hong Kong Polytechnic University, 2. OPPO Research Institute</span>
+                </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
+<!--                  <div class="column has-text-centered">-->
+<!--                    <div class="publication-links">-->
+<!--                         &lt;!&ndash; Arxiv PDF link &ndash;&gt;-->
+<!--                      <span class="link-block">-->
+<!--                        <a href="https://arxiv.org/pdf/2401.00877.pdf" target="_blank"-->
+<!--                        class="external-link button is-normal is-rounded is-dark">-->
+<!--                        <span class="icon">-->
+<!--                          <i class="fas fa-file-pdf"></i>-->
+<!--                        </span>-->
+<!--                        <span>Paper</span>-->
+<!--                      </a>-->
+<!--                    </span>-->
 
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- ArXiv abstract Link -->
+                  <!-- ArXiv abstract Link -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://arxiv.org/pdf/2401.00877.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="ai ai-arxiv"></i>
@@ -114,199 +104,390 @@
                   <span>arXiv</span>
                 </a>
               </span>
+
+                  <!-- Supplementary PDF link -->
+<!--                    <span class="link-block">-->
+<!--                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"-->
+<!--                      class="external-link button is-normal is-rounded is-dark">-->
+<!--                      <span class="icon">-->
+<!--                        <i class="fas fa-file-pdf"></i>-->
+<!--                      </span>-->
+<!--                      <span>Supplementary</span>-->
+<!--                    </a>-->
+<!--                  </span>-->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/csslc/CCSR" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+
+              <!-- ArXiv abstract Link -->
+<!--                <span class="link-block">-->
+<!--                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"-->
+<!--                  class="external-link button is-normal is-rounded is-dark">-->
+<!--                  <span class="icon">-->
+<!--                    <i class="ai ai-arxiv"></i>-->
+<!--                  </span>-->
+<!--                  <span>arXiv</span>-->
+<!--                </a>-->
+<!--              </span>-->
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 </section>
 
 
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
-        <source src="static/videos/banner_video.mp4"
-        type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+<!--&lt;!&ndash; Teaser video&ndash;&gt;-->
+<!--<section class="hero teaser">-->
+<!--  <div class="container is-max-desktop">-->
+<!--    <div class="hero-body">-->
+<!--      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
+<!--        &lt;!&ndash; Your video here &ndash;&gt;-->
+<!--        <source src="static/videos/banner_video.mp4"-->
+<!--        type="video/mp4">-->
+<!--      </video>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. -->
+<!--      </h2>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End teaser video &ndash;&gt;-->
+
+<!--&lt;!&ndash;=================Teasers==========================&ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container is-max-desktop has-text-centered">-->
+<!--      &lt;!&ndash; The expanding image container &ndash;&gt;-->
+<!--      <div class="tab_container">-->
+<!--        &lt;!&ndash; Close the image &ndash;&gt;-->
+<!--        &lt;!&ndash; <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span> &ndash;&gt;-->
+
+<!--        &lt;!&ndash; Expanded image &ndash;&gt;-->
+<!--        <div id="juxtapose-embed" data-startingposition="30%" data-animate="true" class="juxtapose"-->
+<!--          style="height: 800px; width: 800px;">-->
+<!--          &lt;!&ndash; <div class="jx-slider">-->
+<!--            <div class="jx-handle " style="left: 50%;">-->
+<!--              <div class="jx-arrow jx-left"></div>-->
+<!--              <div class="jx-control">-->
+<!--                <div class="jx-controller" tabindex="0" role="slider" aria-valuenow="50" aria-valuemin="0"-->
+<!--                  aria-valuemax="100"></div>-->
+<!--              </div>-->
+<!--              <div class="jx-arrow jx-right"></div>-->
+<!--            </div>-->
+<!--            <div class="jx-image jx-left " style="width: 50%;"><img src="./src/UDC_1.png" alt="">-->
+<!--              <div class="jx-label" tabindex="0">UDC images</div>-->
+<!--            </div>-->
+<!--            <div class="jx-image jx-right " style="width: 50%;"><img src="./src/AF_1.png" alt="">-->
+<!--              <div class="jx-label" tabindex="0">AlignFormer results</div>-->
+<!--            </div><a href="https://juxtapose.knightlab.com" target="_blank" rel="noopener" class="jx-knightlab">-->
+<!--              <div class="knightlab-logo"></div><span class="juxtapose-name">JuxtaposeJS</span>-->
+<!--            </a>-->
+<!--          </div> &ndash;&gt;-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--          <div id="juxtapose-hidden"></div>-->
+<!--        </div>-->
+
+<!--        &lt;!&ndash; Image text &ndash;&gt;-->
+<!--        <div id="imgtext"></div>-->
+<!--      </div>-->
+
+<!--      &lt;!&ndash; The grid: four columns &ndash;&gt;-->
+<!--      <div class="tab_row">-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/19_LQ.png" onclick="tab_gallery_click('19');">-->
+<!--        </div>-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/29_LQ.png" onclick="tab_gallery_click('29');">-->
+<!--        </div>-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/49_LQ.png" onclick="tab_gallery_click('49');">-->
+<!--        </div>-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/53_LQ.png" onclick="tab_gallery_click('53');">-->
+<!--        </div>-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/OST_009_LQ.png" onclick="tab_gallery_click('OST_009');">-->
+<!--        </div>-->
+<!--        <div class="tab_column">-->
+<!--          <img src="images/wolf_gray_LQ.png" onclick="tab_gallery_click('wolf_gray');">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
 
 <!-- Paper abstract -->
-<section class="section hero is-light">
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            The generative priors of pre-trained latent diffusion models have demonstrated great potential to enhance the perceptual quality of image super-resolution (SR) results.
+            Unfortunately, the existing diffusion prior-based SR methods encounter a common problem, i.e., they tend to generate rather different outputs for the same low-resolution image with different noise samples.
+            Such stochasticity is desired for text-to-image generation tasks but problematic for SR tasks, where the image contents are expected to be well preserved.
+            To improve the stability of diffusion prior-based SR, we propose to employ the diffusion models to refine image structures, while employing the generative adversarial training to enhance image fine details.
+            Specifically, we propose a non-uniform timestep learning strategy to train a compact diffusion network, which has high efficiency and stability to reproduce the image main structures, and finetune the pre-trained decoder of variational auto-encoder (VAE) by adversarial training for detail enhancement. Extensive experiments show that our proposed method, namely content consistent super-resolution (CCSR), can significantly reduce the stochasticity of diffusion prior-based SR, improving the content consistency of SR outputs and speeding up the image generation process.
           </p>
         </div>
       </div>
     </div>
+
+<!--=================Motivation==========================-->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Motivation</h2>
+      <div class="content has-text-justified">
+      <!-- <h3 class="title is-4">Overview of the AlignFormer</h3> -->
+      <div style="text-align: center; vertical-align:middle">
+        <img src="images/problem.png" width="600">
+      </div>
+        <p>
+          Visual comparisons of two super-resolution images with different starting points in the diffusion process from an input LR image.
+          One can see that the images generated by StableSR exhibit noticeable differences in textures, as well as large variations in PSNR and LPIPS indices.
+          In contrast, our CCSR method produces more stable and content-consistent results.
+        </p>
+      <div style="text-align: center; vertical-align:middle">
+        <img src="images/motivation.png" width="800">
+      </div>
+        <p>
+          To improve the stability of diffusion priors to better assist SR tasks, we investigate in-depth how diffusion priors can help SR at different diffusion timesteps.
+          Compared with GAN, diffusion priors are more powerful and flexible to facilitate the generation of more realistic and visually pleasing image content.
+          This capability is especially useful when the LR image suffers from significant information loss and heavy degradation, for which the GAN-based models may fail.
+          However, if the image structural contents can be well-reproduced, for example, by using the diffusion model, the GAN network can subsequently enhance the details with low stochasticity.
+          Therefore, we propose to employ the diffusion models to refine image structures, while employing the generative adversarial training to enhance image fine details.
+        </p>
+      </div>
+    </div>
   </div>
-</section>
-<!-- End paper abstract -->
 
+<!--=================Method==========================-->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Method</h2>
+      <div class="content has-text-justified">
+      <!-- <h3 class="title is-4">Overview of the AlignFormer</h3> -->
+      <div style="text-align: center; vertical-align:middle">
+        <img src="images/method.png" width="800">
+      </div>
+      <div align="center">
+        <b>Framework of CCSR.</b>
+      </div>
+        <p>
+          There are two training stages in CCSR, structure refinement (top left) and detail enhancement (top right).
+          In the first stage, a non-uniform sampling strategy (bottom) is proposed, which applies one timestep for information extraction from LR and several other timesteps for image structure generation.
+          The diffusion process is then stopped and the truncated output is fed into the second stage, where the detail is enhanced by finetuning the VAE decoder with adversarial training.
+        </p>
+      </div>
+    </div>
+  </div>
+<!--=================New Stability Measures==========================-->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">New Stability Measures</h2>
+      <div class="content has-text-justified">
+      <!-- <h3 class="title is-4">Overview of the AlignFormer</h3> -->
+        <p>
+          Most of the existing diffusion prior-based SR methods suffer from the stability problem.
+          <b>Therefore, it is necessary to design measures to evaluate the stability of diffusion model-based SR models.</b>
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+          We propose new stability metrics, namely global standard deviation (G-STD) and local standard deviation (L-STD), to
+          <b>respectively measure the image-level and pixel-level variations of the SR results of diffusion-based methods.</b>
+          We run N times (N = 10 in our experiments) the experiments for each SR model on each test image within each test benchmark.
+          For each SR image, we can compute its quality metrics (except for FID) and then calculate the STD values over the N runs for each metric.
+          By averaging the STD values over all test images in a benchmark, the G-STD value of one metric can be obtained, which can reflect the stability of an SR model at the image level.
+          To measure the stability at the local pixel level, we define L-STD, which computes the STD of pixels in the same location of the N SR images.
+        </p>
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
+    </div>
+  </div>
+<!--=================Results==========================-->
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+      <h2 class="title is-3">Results</h2>
+      <div class="content has-text-justified">
+      <!-- <h3 class="title is-4">Overview of the AlignFormer</h3> -->
+      <div style="text-align: center; vertical-align:middle">
+        <img src="images/real-world results.png" width="800">
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
+        <p>
+           Visual comparisons between our CCSR with state-of-the-art GAN-based and diffusion model-based methods, including RealESRGAN, BSRGAN, DASR, LDL, LDM-SR, StableSR, ResShift, DiffBIR and PASD.
+           For the diffusion model-based method, two restored images that have the
+          <strong>best and worst PSNR values over 10 runs</strong>
+            are shown for a more comprehensive and fair comparison.
+           Our proposed CCSR works the best in reconstructing more accurate structures and more realistic, content-consistent, and stable details.
+        </p>
+      <div style="text-align: center; vertical-align:middle">
+        <img src="images/table.png" width="800">
+      </div>
+        <p>
+            CCSR achieves outstanding fidelity and perceptual measures among all the diffusion model-based methods.
+            Meanwhile, it demonstrates much better stability in synthesizing image details, as evidenced by its outstanding G-STD and L-STD measures.
+        </p>
+      </div>
     </div>
   </div>
 </div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
+<!-- End paper introduction-->
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
+<section class="section" id="BibTeX">
+<div class="container is-max-desktop content">
+  <h2 class="title">BibTeX</h2>
+  <pre><code>@article{sun2023ccsr,
+title={Improving the Stability of Diffusion Models for Content Consistent Super-Resolution},
+author={Sun, Lingchen and Wu, Rongyuan and Zhang, Zhengqiang and Yong, Hongwei and Zhang, Lei},
+journal={arXiv preprint arXiv:2401.00877},
+year={2024},
+}</code></pre>
+</div>
 </section>
 <!--End BibTex citation -->
 
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
+<footer class="footer">
+<div class="container">
+  <div class="content has-text-centered">
+    <a class="icon-link"
+       href="https://arxiv.org/pdf/2401.00877.pdf">
+      <i class="fas fa-file-pdf"></i>
+    </a>
+    <a class="icon-link"
+       href="https://github.com/csslc" >
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <div class="columns is-centered">
+    <div class="column is-8">
+      <div class="content">
+        <p>
+          If you have any question, please contact us at <strong>ling-chen.sun@connect.polyu.hk</strong>.
+        </p>
+        <p>
+          This website is licensed under a <a rel="license"
+                                              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+          Commons Attribution-ShareAlike 4.0 International License</a>.
+        </p>
+        <p>
+          Website adapted from the following <a
+            href="https://github.com/nerfies/nerfies.github.io">source code</a>, and <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
+        </p>
       </div>
     </div>
   </div>
+</div>
 </footer>
 
+<!--&lt;!&ndash; Image Slider Javascripts &ndash;&gt;-->
+<!--&lt;!&ndash;=================Functions==========================&ndash;&gt;-->
+<!--<script src="static/js/juxtapose.js"></script>-->
+
+
+<!--<script>-->
+<!--  var slider;-->
+<!--  let origImages = [-->
+<!--    { "src": "images/19_LQ.png", "label": "Zoomed LQ images", },-->
+<!--    { "src": "images/19_HQ.png", "label": "CCSR results", }-->
+<!--  ];-->
+<!--  let origOptions = {-->
+<!--    "makeResponsive": true,-->
+<!--    "showLabels": true,-->
+<!--    "mode": "horizontal",-->
+<!--    "showCredits": true,-->
+<!--    "animate": true,-->
+<!--    "startingPosition": "50"-->
+<!--  };-->
+
+<!--  const juxtaposeSelector = "#juxtapose-embed";-->
+<!--  const transientSelector = "#juxtapose-hidden";-->
+
+
+<!--  function tab_gallery_click(name) {-->
+<!--    // Get the expanded image-->
+<!--    let inputImage = {-->
+<!--      label: "Zoomed LQ images",-->
+<!--    };-->
+<!--    let outputImage = {-->
+<!--      label: "CCSR results",-->
+<!--    };-->
+
+<!--    inputImage.src = "images/".concat(name, "_LQ", ".png")-->
+<!--    outputImage.src = "images/".concat(name, "_HQ", ".png")-->
+
+<!--    let images = [inputImage, outputImage];-->
+<!--    let options = slider.options;-->
+<!--    options.callback = function (obj) {-->
+<!--      var newNode = document.getElementById(obj.selector.substring(1));-->
+<!--      var oldNode = document.getElementById(juxtaposeSelector.substring(1));-->
+<!--      console.log(obj.selector.substring(1));-->
+<!--      console.log(newNode.children[0]);-->
+<!--      oldNode.replaceChild(newNode.children[0], oldNode.children[0]);-->
+<!--      //newNode.removeChild(newNode.children[0]);-->
+
+<!--    };-->
+
+<!--    slider = new juxtapose.JXSlider(transientSelector, images, options);-->
+<!--  };-->
+
+<!--  (function () {-->
+<!--    slider = new juxtapose.JXSlider(-->
+<!--      juxtaposeSelector, origImages, origOptions);-->
+<!--    //document.getElementById("left-button").onclick = replaceLeft;-->
+<!--    //document.getElementById("right-button").onclick = replaceRight;-->
+<!--  })();-->
+<!--  // Get the image text-->
+<!--  var imgText = document.getElementById("imgtext");-->
+<!--  // Use the same src in the expanded image as the image being clicked on from the grid-->
+<!--  // expandImg.src = imgs.src;-->
+<!--  // Use the value of the alt attribute of the clickable image as text inside the expanded image-->
+<!--  imgText.innerHTML = name;-->
+<!--  // Show the container element (hidden with CSS)-->
+<!--  // expandImg.parentElement.style.display = "block";-->
+
+<!--  $(".flip-card").click(function () {-->
+<!--    console.log("fading in")-->
+<!--    div_back = $(this).children().children()[1]-->
+<!--    div_front = $(this).children().children()[0]-->
+<!--    // console.log($(this).children("div.flip-card-back"))-->
+<!--    console.log(div_back)-->
+<!--    $(div_front).addClass("out");-->
+<!--    $(div_front).removeClass("in");-->
+
+<!--    $(div_back).addClass("in");-->
+<!--    $(div_back).removeClass("out");-->
+
+<!--  });-->
+
+<!--  $(".flip-card").mouseleave(function () {-->
+<!--    console.log("fading in")-->
+<!--    div_back = $(this).children().children()[1]-->
+<!--    div_front = $(this).children().children()[0]-->
+<!--    // console.log($(this).children("div.flip-card-back"))-->
+<!--    console.log(div_back)-->
+<!--    $(div_front).addClass("in");-->
+<!--    $(div_front).removeClass("out");-->
+
+<!--    $(div_back).addClass("out");-->
+<!--    $(div_back).removeClass("in");-->
+
+<!--  });-->
+<!--</script>-->
 <!-- Statcounter tracking code -->
-  
+
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
 
-  </body>
-  </html>
+</body>
+</html>
