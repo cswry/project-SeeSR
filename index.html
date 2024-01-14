@@ -66,13 +66,13 @@
             <span class="author-block">
               <a href="https://scholar.google.com/citations?user=A-U8zE8AAAAJ&hl=zh-CN" target="_blank">Rongyuan Wu</a><sup>1,2</sup>,</span>
             <span class="author-block">
-              <a href="https://scholar.google.com.hk/citations?user=Xii74qQAAAAJ&hl=zh-CN" target="_blank">Hongwei Yong</a><sup>1</sup>,</span>
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=znRMaO8AAAAJ" target="_blank">Tao Yang</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="https://scholar.google.com/citations?hl=zh-CN&tzom=-480&user=ZCDjTn8AAAAJ" target="_blank">Lingchen Sun</a><sup>1,2</sup>,</span>  
             <span class="author-block">
               <a href="https://scholar.google.com/citations?hl=zh-CN&user=UX26wSMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Zhengqiang Zhang</a><sup>1,2</sup>,</span>
             <span class="author-block">
-            <a href="https://scholar.google.com.hk/citations?user=Xii74qQAAAAJ&hl=zh-CN" target="_blank">Hongwei Yong</a><sup>1</sup>,</span>
+            <a href="https://scholar.google.com/citations?hl=zh-CN&user=Bd73ldQAAAAJ" target="_blank">Shuai Li</a><sup>1</sup>,</span>
               <span class="author-block">
             <a href="https://www4.comp.polyu.edu.hk/~cslzhang/" target="_blank">Lei Zhang</a><sup>1,2</sup></span>
                 </div>
@@ -234,11 +234,19 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            The generative priors of pre-trained latent diffusion models have demonstrated great potential to enhance the perceptual quality of image super-resolution (SR) results.
-            Unfortunately, the existing diffusion prior-based SR methods encounter a common problem, i.e., they tend to generate rather different outputs for the same low-resolution image with different noise samples.
-            Such stochasticity is desired for text-to-image generation tasks but problematic for SR tasks, where the image contents are expected to be well preserved.
-            To improve the stability of diffusion prior-based SR, we propose to employ the diffusion models to refine image structures, while employing the generative adversarial training to enhance image fine details.
-            Specifically, we propose a non-uniform timestep learning strategy to train a compact diffusion network, which has high efficiency and stability to reproduce the image main structures, and finetune the pre-trained decoder of variational auto-encoder (VAE) by adversarial training for detail enhancement. Extensive experiments show that our proposed method, namely content consistent super-resolution (CCSR), can significantly reduce the stochasticity of diffusion prior-based SR, improving the content consistency of SR outputs and speeding up the image generation process.
+            Owe to the powerful generative priors, the pre-trained text-to-image (T2I) diffusion models have become increasingly popular in solving the real-world image superresolution problem. However, as a consequence of the heavy quality degradation of input low-resolution (LR) images, the destruction of local structures can lead to ambiguous image semantics. As a result, the content of reproduced high-resolution image may have semantic errors,
+            deteriorating the super-resolution performance. To address
+            this issue, we present a semantics-aware approach to better
+            preserve the semantic fidelity of generative real-world image super-resolution. First, we train a degradation-aware
+            prompt extractor, which can generate accurate soft and
+            hard semantic prompts even under strong degradation. The
+            hard semantic prompts refer to the image tags, aiming to
+            enhance the local perception ability of the T2I model, while
+            the soft semantic prompts compensate for the hard ones
+            to provide additional representation information. These
+            semantic prompts can encourage the T2I model to generate detailed and semantically accurate results. Furthermore, during the inference process, we integrate the LR images into the initial sampling noise to mitigate the diffusion
+            model’s tendency to generate excessive random details. The
+            experiments show that our method can reproduce more realistic image details and hold better the semantics.
           </p>
         </div>
       </div>
